@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "CV"
+  },
+  "hero": {
+    "greeting": "Hi, my name is",
+    "name": "Dilmurod Akmalov.",
+    "tagline": "I build user-focused interfaces with clean, maintainable code.",
+    "description": "I'm a frontend developer specializing in building exceptional digital experiences. Currently, I'm focused on creating accessible, human-centered products with modern technologies and best practices.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Hello! I'm a passionate frontend developer who loves crafting beautiful, functional, and user-friendly websites. My journey in web development started back in 2023 when I discovered the magic of turning designs into interactive experiences with code.",
+    "paragraph2": "Fast-forward to today, and I've had the privilege of working on a diverse range of projects — from small business websites to complex web applications. My main focus these days is building accessible, inclusive products and digital experiences that make a difference in people's lives.",
+    "paragraph3": "I'm constantly learning new technologies and best practices to stay current in this ever-evolving field. When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or sharing knowledge with the developer community.",
+    "techTitle": "Here are a few technologies I've been working with recently:"
+  },
+  "experience": {
+    "title": "Experience",
+    "positions": {
+      "senior": "Junior Frontend Developer",
+      "frontend": "Intern Frontend Developer",
+      "junior": " Intern Frontend Developer"
+    },
+    "companies": {
+      "tech": "Tech Company",
+      "agency": "Creative Agency",
+      "startup": "Ministry of Digital Technologies of the Republic of Uzbekistan"
+    },
+    "periods": {
+      "current": "August — Present",
+      "past1": "May - August (2025)",
+      "past2": "January - April (2025)"
+    },
+    "descriptions": {
+      "senior": [
+        "Worked as part of a team developing a web platform using React, TypeScript, React Query, and TailwindCSS.",
+        "Implemented UI components, adapted pages for different devices, and ensured consistent styling across the application.",
+        "Integrated frontend with API endpoints using React Query for data fetching, caching, and state updates.",
+        "Collaborated through Git/GitLab and participated in team discussions to organize tasks and improve the development process."
+      ],
+      "frontend": [
+        "Helped develop a responsive website for an education center, working on page layout and UI components.",
+        "Assisted with connecting frontend parts to data and implementing basic interactive elements.",
+        "Used Git for simple version control tasks and collaborated with the team during development.",
+        "Learned to follow design layouts, adapt pages for different devices, and test pages before delivery."
+      ],
+      "junior": [
+        "Helped with basic interface layout tasks and small updates for internal web pages.",
+        "Learned how digital services and government systems are organized.",
+        "Worked with Git for simple version control tasks and improved teamwork skills.",
+        "Assisted in testing small features and preparing simple documentation."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "featured": "Featured",
+    "items": {
+      "ecommerce": {
+        "title": "STAB - Study Abroad Planner",
+        "description": "A modern, fully responsive e-commerce platform with shopping cart functionality, product filtering, and secure checkout process. Features include user authentication, order tracking, and admin dashboard."
+      },
+      "taskManager": {
+        "title": "Task Management App",
+        "description": "Intuitive task management application with drag-and-drop functionality, real-time collaboration, and progress tracking. Built with modern web technologies for optimal performance."
+      },
+      "weather": {
+        "title": "Weather Dashboard",
+        "description": "Real-time weather dashboard displaying current conditions, forecasts, and interactive maps. Features location search, favorite locations, and responsive design."
+      },
+      "portfolioGen": {
+        "title": "Portfolio Generator",
+        "description": "Dynamic portfolio website generator that allows users to create beautiful portfolio sites without coding. Features template selection and real-time preview."
+      },
+      "socialDash": {
+        "title": "Social Media Dashboard",
+        "description": "Analytics dashboard for tracking social media metrics across multiple platforms. Features data visualization, scheduled posts, and engagement analytics."
+      },
+      "codeSnippet": {
+        "title": "Code Snippet Manager",
+        "description": "Developer tool for organizing and managing code snippets with syntax highlighting, tagging system, and search functionality."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm currently looking for new opportunities and my inbox is always open. Whether you have a question, want to collaborate on a project, or just want to say hi, I'll try my best to get back to you!",
+    "sayHello": "Say Hello",
+    "findMe": "Or find me on"
+  },
+  "footer": {
+    "designedBy": "Designed & Built with",
+    "by": "by Dilmurod Akmalov",
+    "rights": "All rights reserved.",
+    "inspired": "Inspired by"
+  },
+  "sidebar": {
+    "name": "Dilmurod Akmalov",
+    "title": "Frontend Developer",
+    "tagline": "I build accessible, pixel-perfect digital experiences for the web."
+  }
+}
+

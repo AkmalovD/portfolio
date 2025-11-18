@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Men haqimda",
+    "experience": "Tajriba",
+    "projects": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "greeting": "Salom, mening ismim",
+    "name": "Dilmurod Akmalov.",
+    "tagline": "Men veb-ilovalar yarataman.",
+    "description": "Men ajoyib raqamli tajribalarni yaratishga ixtisoslashgan frontend dasturchiman. Hozirda men zamonaviy texnologiyalar va eng yaxshi amaliyotlar bilan foydalanuvchilarga mo'ljallangan, ochiq mahsulotlarni yaratishga e'tibor qarataman.",
+    "viewWork": "Ishlarimni ko'rish",
+    "getInTouch": "Bog'lanish",
+    "scroll": "Pastga"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "paragraph1": "Salom! Men chiroyli, funksional va foydalanishga qulay veb-saytlarni yaratishni yaxshi ko'radigan ishtiyoqli frontend dasturchiman. Veb-dasturlashdagi sayohatim 2018-yilda boshlangan, o'shanda men dizaynni kod yordamida interaktiv tajribaga aylantirishning sehrini kashf etdim.",
+    "paragraph2": "Bugungi kunga kelib, men turli xil loyihalar ustida ishlash sharafiga muyassar bo'ldim - kichik biznes veb-saytlaridan tortib murakkab veb-ilovalargacha. Hozirgi paytda mening asosiy e'tiborim odamlarning hayotida farq qiladigan, ochiq va inklyuziv mahsulotlar va raqamli tajribalarni yaratishga qaratilgan.",
+    "paragraph3": "Men bu doimo rivojlanayotgan sohada so'nggi yangilanishlardan xabardor bo'lish uchun doimiy ravishda yangi texnologiyalar va eng yaxshi amaliyotlarni o'rganaman. Kod yozmasam, meni yangi dizayn tendentsiyalarini o'rganayotgan, ochiq manbali loyihalarga hissa qo'shayotgan yoki dasturchilar jamiyati bilan bilim almashayotgan holda topishingiz mumkin.",
+    "techTitle": "Oxirgi paytlarda ishlagan texnologiyalarimdan ba'zilari:"
+  },
+  "experience": {
+    "title": "Ish tajribasi",
+    "positions": {
+      "senior": "Katta Frontend dasturchi",
+      "frontend": "Frontend dasturchi",
+      "junior": "Kichik Frontend dasturchi"
+    },
+    "companies": {
+      "tech": "Texnologiya kompaniyasi",
+      "agency": "Kreativ agentlik",
+      "startup": "Startap"
+    },
+    "periods": {
+      "current": "2022 — Hozirgi vaqt",
+      "past1": "2020 — 2022",
+      "past2": "2018 — 2020"
+    },
+    "descriptions": {
+      "senior": [
+        "React, TypeScript va Next.js dan foydalangan holda zamonaviy veb-ilovalarni ishlab chiqishga rahbarlik qilish",
+        "Piksel darajasida mukammal interfeyslarni amalga oshirish uchun dizaynerlar va mahsulot menejerlari bilan hamkorlik qilish",
+        "Yuqori kod sifatini saqlash uchun yoshroq dasturchilarga maslahat berish va kod tekshiruvlarini o'tkazish",
+        "Ochiqlik bo'yicha eng yaxshi amaliyotlarni joriy qilish va ilova samaradorligini optimallashtirish"
+      ],
+      "frontend": [
+        "Turli mijozlar uchun moslashuvchan veb-saytlar va veb-ilovalar yaratish",
+        "Figma dizaynlarini funksional interfeyslarga aylantirish uchun dizayn jamoasi bilan yaqindan ishlash",
+        "RESTful API-larni amalga oshirish va uchinchi tomon xizmatlarini integratsiya qilish",
+        "Mijoz loyihalari uchun veb-sayt samaradorligi va SEO ni yaxshilash"
+      ],
+      "junior": [
+        "Kompaniya veb-sayti va ichki vositalarni ishlab chiqish va saqlash",
+        "Eski kod bazasini zamonaviy React arxitekturasiga ko'chirishda yordam berish",
+        "Agile ishlab chiqish jarayonida va kunlik uchrashuvlarda ishtirok etish",
+        "Komponent kutubxonasi va dizayn tizimiga hissa qo'shish"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Loyihalar",
+    "featured": "Tanlangan",
+    "items": {
+      "ecommerce": {
+        "title": "Elektron tijorat platformasi",
+        "description": "Savatcha funksiyasi, mahsulot filtrlash va xavfsiz to'lov jarayoni bilan to'liq moslashuvchan zamonaviy elektron tijorat platformasi. Foydalanuvchi autentifikatsiyasi, buyurtmalarni kuzatish va administrator panelini o'z ichiga oladi."
+      },
+      "taskManager": {
+        "title": "Vazifalarni boshqarish ilovasi",
+        "description": "Sudrab va tashlash funksiyasi, real vaqtda hamkorlik va taraqqiyotni kuzatish bilan intuitiv vazifalarni boshqarish ilovasi. Optimal ishlash uchun zamonaviy veb-texnologiyalar bilan yaratilgan."
+      },
+      "weather": {
+        "title": "Ob-havo paneli",
+        "description": "Joriy sharoitlar, prognozlar va interaktiv xaritalarni ko'rsatadigan real vaqtdagi ob-havo paneli. Manzilni qidirish, sevimli joylar va moslashuvchan dizaynni o'z ichiga oladi."
+      },
+      "portfolioGen": {
+        "title": "Portfolio generatori",
+        "description": "Foydalanuvchilarga kod yozmasdan chiroyli portfolio saytlarini yaratish imkonini beruvchi dinamik portfolio veb-sayt generatori. Shablon tanlash va real vaqtda ko'rib chiqishni o'z ichiga oladi."
+      },
+      "socialDash": {
+        "title": "Ijtimoiy tarmoqlar paneli",
+        "description": "Bir nechta platformalarda ijtimoiy tarmoq ko'rsatkichlarini kuzatish uchun analitik panel. Ma'lumotlarni vizualizatsiya qilish, rejalashtirilgan postlar va jalb qilish analitikasini o'z ichiga oladi."
+      },
+      "codeSnippet": {
+        "title": "Kod parchalarini boshqaruvchi",
+        "description": "Sintaksis ta'kidlash, teglar tizimi va qidiruv funksiyasi bilan kod parchalarini tashkil qilish va boshqarish uchun dasturchi vositasi."
+      }
+    }
+  },
+  "contact": {
+    "title": "Bog'laning",
+    "description": "Hozirda men yangi imkoniyatlarni qidiryapman va mening pochta qutim doimo ochiq. Savolingiz bo'lsa, loyihada hamkorlik qilmoqchi bo'lsangiz yoki shunchaki salom aytmoqchi bo'lsangiz, men sizga imkon qadar tezroq javob berishga harakat qilaman!",
+    "sayHello": "Salom aytish",
+    "findMe": "Yoki meni topishingiz mumkin"
+  },
+  "footer": {
+    "designedBy": "Ishlab chiqilgan",
+    "by": "Sizning ismingiz tomonidan",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "inspired": "Ilhomlantirgan"
+  },
+  "sidebar": {
+    "name": "Dilmurod Akmalov",
+    "title": "Frontend dasturchi",
+    "tagline": "Men veb uchun ochiq, piksel darajasida mukammal raqamli mahsulotlar yarataman."
+  }
+}
+
