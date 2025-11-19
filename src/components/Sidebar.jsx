@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import { label } from 'framer-motion/client';
+import DownloadCv from '../utils/DownloadCv'
 
 const Sidebar = () => {
   const { t } = useTranslation();
@@ -76,6 +77,7 @@ const Sidebar = () => {
       {/* Social Links & Language Switcher */}
       <div className="space-y-4">
         <LanguageSwitcher />
+        <DownloadCv/>
       </div>
     </motion.aside>
   );
