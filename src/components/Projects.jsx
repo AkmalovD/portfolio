@@ -12,7 +12,7 @@ const Projects = () => {
     {
       title: t('projects.items.ecommerce.title'),
       description: t('projects.items.ecommerce.description'),
-      tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
+      tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: true,
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: t('projects.items.taskManager.title'),
       description: t('projects.items.taskManager.description'),
-      tags: ['React', 'Firebase', 'Framer Motion', 'Zustand'],
+      tags: ['React', 'TypeScript', 'Firebase', 'Framer Motion'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: true,
@@ -28,7 +28,7 @@ const Projects = () => {
     {
       title: t('projects.items.weather.title'),
       description: t('projects.items.weather.description'),
-      tags: ['React', 'OpenWeather API', 'Chart.js', 'CSS Modules'],
+      tags: ['Vue', 'JavaScript', 'CSS Modules','OpenWeather API',],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false,
@@ -36,7 +36,7 @@ const Projects = () => {
     {
       title: t('projects.items.portfolioGen.title'),
       description: t('projects.items.portfolioGen.description'),
-      tags: ['Next.js', 'Markdown', 'Tailwind CSS', 'Vercel'],
+      tags: ['React','Next.js', 'Markdown', 'Tailwind CSS', 'Vercel'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false,
@@ -45,14 +45,6 @@ const Projects = () => {
       title: t('projects.items.socialDash.title'),
       description: t('projects.items.socialDash.description'),
       tags: ['Vue.js', 'Node.js', 'Express', 'MongoDB'],
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false,
-    },
-    {
-      title: t('projects.items.codeSnippet.title'),
-      description: t('projects.items.codeSnippet.description'),
-      tags: ['React', 'IndexedDB', 'Prism.js', 'PWA'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false,

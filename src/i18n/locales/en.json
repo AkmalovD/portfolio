@@ -66,20 +66,20 @@
     "featured": "Featured",
     "items": {
       "ecommerce": {
-        "title": "STAB - Study Abroad Planner",
-        "description": "A modern, fully responsive e-commerce platform with shopping cart functionality, product filtering, and secure checkout process. Features include user authentication, order tracking, and admin dashboard."
+        "title": "STAB - Study Abroad Planner", 
+        "description": "STAB is a Next.js application that helps students plan international studies by comparing living costs across major cities, calculating expenses, and finding universities and scholarships. Built with TypeScript, React, and Tailwind CSS, it features currency conversion, Firebase authentication, and a student community platform."
       },
       "taskManager": {
-        "title": "Task Management App",
-        "description": "Intuitive task management application with drag-and-drop functionality, real-time collaboration, and progress tracking. Built with modern web technologies for optimal performance."
+        "title": "Football Blog",
+        "description": "Football Blog is a Next.js application that provides football fans with match analysis, player statistics, team comparisons, and latest news from leagues worldwide. Built with TypeScript, React, and Tailwind CSS, it features real-time score updates, Firebase authentication, and a community platform for fans to discuss matches and share opinions."
       },
       "weather": {
         "title": "Weather Dashboard",
-        "description": "Real-time weather dashboard displaying current conditions, forecasts, and interactive maps. Features location search, favorite locations, and responsive design."
+        "description": "Real-time weather dashboard displaying current conditions. Features location search, favorite locations, and responsive design."
       },
       "portfolioGen": {
-        "title": "Portfolio Generator",
-        "description": "Dynamic portfolio website generator that allows users to create beautiful portfolio sites without coding. Features template selection and real-time preview."
+        "title": "Tash-tourist",
+        "description": "Tash-tourist is a Next.js platform showcasing the city's attractions, cuisine, and culture with travel guides and cost planning. Built with TypeScript, React, and Tailwind CSS, it includes a community forum for visitors to share experiences."
       },
       "socialDash": {
         "title": "Social Media Dashboard",
@@ -104,7 +104,7 @@
     "inspired": "Inspired by"
   },
   "sidebar": {
-    "name": "Dilmurod Akmalov",
+    "name": "Portfolio",
     "title": "Frontend Developer",
     "tagline": "I build accessible, pixel-perfect digital experiences for the web."
   }
