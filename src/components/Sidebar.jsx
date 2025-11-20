@@ -75,7 +75,7 @@ const Sidebar = () => {
       </div>
 
       {/* Social Links & Language Switcher */}
-      <div className="space-y-4">
+      <div className="space-y-4 flex flex-col justify-center">
         <LanguageSwitcher />
         <DownloadCv/>
       </div>
