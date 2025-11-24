@@ -9,8 +9,8 @@
   "hero": {
     "greeting": "Salom, mening ismim",
     "name": "Dilmurod Akmalov.",
-    "tagline": "Men veb-ilovalar yarataman.",
-    "description": "Men ajoyib raqamli tajribalarni yaratishga ixtisoslashgan frontend dasturchiman. Hozirda men zamonaviy texnologiyalar va eng yaxshi amaliyotlar bilan foydalanuvchilarga mo'ljallangan, ochiq mahsulotlarni yaratishga e'tibor qarataman.",
+    "tagline": "Men foydalanuvchilarga yo'naltirilgan interfeyslarni toza va qo'llab-quvvatlanadigan kod bilan yarataman.",
+    "description": "Men ajoyib raqamli tajribalarni yaratishga ixtisoslashgan frontend dasturchiman. Hozirda men zamonaviy texnologiyalar va eng yaxshi amaliyotlar yordamida odamlarga mo'ljallangan ochiq mahsulotlarni yaratishga e'tibor qaratyapman.",
     "viewWork": "Ishlarimni ko'rish",
     "getInTouch": "Bog'lanish",
     "scroll": "Pastga"
@@ -65,20 +65,20 @@
     "featured": "Tanlangan",
     "items": {
       "ecommerce": {
-        "title": "Elektron tijorat platformasi",
-        "description": "Savatcha funksiyasi, mahsulot filtrlash va xavfsiz to'lov jarayoni bilan to'liq moslashuvchan zamonaviy elektron tijorat platformasi. Foydalanuvchi autentifikatsiyasi, buyurtmalarni kuzatish va administrator panelini o'z ichiga oladi."
+        "title": "STAB - Chet elda o'qishni rejalashtiruvchi",
+        "description": "STAB - bu talabalarga yirik shaharlardagi yashash xarajatlarini solishtirish, xarajatlarni hisoblash va universitetlar hamda stipendiyalarni topish orqali xalqaro ta'limni rejalashtirishga yordam beradigan Next.js ilovasi. TypeScript, React va Tailwind CSS bilan qurilgan, valyuta konvertatsiyasi, Firebase autentifikatsiyasi va talabalar jamiyati platformasini o'z ichiga oladi."
       },
       "taskManager": {
-        "title": "Vazifalarni boshqarish ilovasi",
-        "description": "Sudrab va tashlash funksiyasi, real vaqtda hamkorlik va taraqqiyotni kuzatish bilan intuitiv vazifalarni boshqarish ilovasi. Optimal ishlash uchun zamonaviy veb-texnologiyalar bilan yaratilgan."
+        "title": "Futbol blogi",
+        "description": "Futbol blogi - bu futbol muxlislariga o'yin tahlillari, o'yinchilar statistikasi, jamoalarni solishtirish va butun dunyo ligalaridan so'nggi yangiliklar bilan ta'minlaydigan Next.js ilovasi. TypeScript, React va Tailwind CSS bilan qurilgan, real vaqtda natijalarni yangilash, Firebase autentifikatsiyasi va muxlislar uchun o'yinlarni muhokama qilish va fikrlarini almashish uchun jamiyat platformasini o'z ichiga oladi."
       },
       "weather": {
         "title": "Ob-havo paneli",
-        "description": "Joriy sharoitlar, prognozlar va interaktiv xaritalarni ko'rsatadigan real vaqtdagi ob-havo paneli. Manzilni qidirish, sevimli joylar va moslashuvchan dizaynni o'z ichiga oladi."
+        "description": "Joriy sharoitlarni ko'rsatadigan real vaqtdagi ob-havo paneli. Joylashuvni qidirish, sevimli joylar va moslashuvchan dizaynni o'z ichiga oladi."
       },
       "portfolioGen": {
-        "title": "Portfolio generatori",
-        "description": "Foydalanuvchilarga kod yozmasdan chiroyli portfolio saytlarini yaratish imkonini beruvchi dinamik portfolio veb-sayt generatori. Shablon tanlash va real vaqtda ko'rib chiqishni o'z ichiga oladi."
+        "title": "Tash-tourist",
+        "description": "Tash-tourist - bu shaharning diqqatga sazovor joylari, oshxonasi va madaniyatini sayohat qo'llanmalari va xarajatlarni rejalashtirish bilan namoyish etuvchi Next.js platformasi. TypeScript, React va Tailwind CSS bilan qurilgan, tashrif buyuruvchilar tajribalarini almashishlari uchun jamiyat forumini o'z ichiga oladi."
       },
       "socialDash": {
         "title": "Ijtimoiy tarmoqlar paneli",
@@ -97,15 +97,15 @@
     "findMe": "Yoki meni topishingiz mumkin"
   },
   "footer": {
-    "designedBy": "Ishlab chiqilgan",
-    "by": "Sizning ismingiz tomonidan",
+    "designedBy": "Ishlab chiqilgan va yaratilgan",
+    "by": "Dilmurod Akmalov tomonidan",
     "rights": "Barcha huquqlar himoyalangan.",
     "inspired": "Ilhomlantirgan"
   },
   "sidebar": {
-    "name": "Dilmurod Akmalov",
+    "name": "Portfolio",
     "title": "Frontend dasturchi",
-    "tagline": "Men veb uchun ochiq, piksel darajasida mukammal raqamli mahsulotlar yarataman."
+    "tagline": "Men veb uchun ochiq, piksel darajasida mukammal raqamli tajribalarni yarataman."
   }
 }
 
