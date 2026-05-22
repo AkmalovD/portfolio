@@ -1,14 +1,31 @@
-import React from 'react';
+import type { Dispatch, SetStateAction } from 'react';
 import { Link } from 'react-scroll';
 import { FiMenu, FiX, FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import type { IconType } from 'react-icons';
 import LanguageSwitcher from './LanguageSwitcher';
 
-const MobileNav = ({ isOpen, setIsOpen }) => {
+interface NavItem {
+  id: string;
+  label: string;
+}
+
+interface SocialLink {
+  icon: IconType;
+  href: string;
+  label: string;
+}
+
+interface MobileNavProps {
+  isOpen: boolean;
+  setIsOpen: Dispatch<SetStateAction<boolean>>;
+}
+
+const MobileNav = ({ isOpen, setIsOpen }: MobileNavProps) => {
   const { t } = useTranslation();
-  
-  const navItems = [
+
+  const navItems: NavItem[] = [
     { id: 'hero', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
     { id: 'experience', label: t('nav.experience') },
@@ -16,7 +33,7 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
     { id: 'contact', label: t('nav.contact') },
   ];
 
-  const socialLinks = [
+  const socialLinks: SocialLink[] = [
     { icon: FiGithub, href: 'https://github.com', label: 'GitHub' },
     { icon: FiLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
     { icon: FiTwitter, href: 'https://twitter.com', label: 'Twitter' },
@@ -112,4 +129,3 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
 };
 
 export default MobileNav;
-

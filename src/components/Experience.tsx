@@ -1,20 +1,29 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { FiExternalLink } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 
+interface ExperienceItem {
+  company: string;
+  position: string;
+  period: string;
+  url: string;
+  description: string[];
+  tags: string[];
+}
+
 const Experience = () => {
   const { t } = useTranslation();
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const experiences = [
+  const experiences: ExperienceItem[] = [
     {
       company: t('experience.companies.tech'),
       position: t('experience.positions.senior'),
       period: t('experience.periods.current'),
       url: 'https://example.com',
-      description: t('experience.descriptions.senior', { returnObjects: true }),
+      description: t('experience.descriptions.senior', { returnObjects: true }) as string[],
       tags: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
     },
     {
@@ -22,7 +31,7 @@ const Experience = () => {
       position: t('experience.positions.frontend'),
       period: t('experience.periods.past1'),
       url: 'https://example.com',
-      description: t('experience.descriptions.frontend', { returnObjects: true }),
+      description: t('experience.descriptions.frontend', { returnObjects: true }) as string[],
       tags: ['JavaScript', 'Vue.js', 'SCSS'],
     },
     {
@@ -30,7 +39,7 @@ const Experience = () => {
       position: t('experience.positions.junior'),
       period: t('experience.periods.past2'),
       url: 'https://example.com',
-      description: t('experience.descriptions.junior', { returnObjects: true }),
+      description: t('experience.descriptions.junior', { returnObjects: true }) as string[],
       tags: ['HTML', 'CSS', 'JavaScript', 'Vue.js'],
     },
   ];
@@ -113,4 +122,3 @@ const Experience = () => {
 };
 
 export default Experience;
-

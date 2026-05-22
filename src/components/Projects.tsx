@@ -1,14 +1,23 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiFolder } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 
+interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  github: string;
+  live: string;
+  featured: boolean;
+}
+
 const Projects = () => {
   const { t } = useTranslation();
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const projects = [
+  const projects: Project[] = [
     {
       title: t('projects.items.ecommerce.title'),
       description: t('projects.items.ecommerce.description'),
@@ -28,7 +37,7 @@ const Projects = () => {
     {
       title: t('projects.items.weather.title'),
       description: t('projects.items.weather.description'),
-      tags: ['Vue', 'JavaScript', 'CSS Modules','OpenWeather API',],
+      tags: ['Vue', 'JavaScript', 'CSS Modules', 'OpenWeather API'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false,
@@ -36,7 +45,7 @@ const Projects = () => {
     {
       title: t('projects.items.portfolioGen.title'),
       description: t('projects.items.portfolioGen.description'),
-      tags: ['React','Next.js', 'Markdown', 'Tailwind CSS', 'Vercel'],
+      tags: ['React', 'Next.js', 'Markdown', 'Tailwind CSS', 'Vercel'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false,
@@ -51,8 +60,8 @@ const Projects = () => {
     },
   ];
 
-  const featuredProjects = projects.filter(p => p.featured);
-  const otherProjects = projects.filter(p => !p.featured);
+  const featuredProjects = projects.filter((p) => p.featured);
+  const otherProjects = projects.filter((p) => !p.featured);
 
   return (
     <section id="projects" ref={ref} className="py-20 lg:py-32">
@@ -118,10 +127,7 @@ const Projects = () => {
 
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="text-xs font-mono text-dark-400"
-                      >
+                      <span key={tag} className="text-xs font-mono text-dark-400">
                         {tag}
                       </span>
                     ))}
@@ -176,10 +182,7 @@ const Projects = () => {
 
               <div className="flex flex-wrap gap-3">
                 {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs font-mono text-dark-400"
-                  >
+                  <span key={tag} className="text-xs font-mono text-dark-400">
                     {tag}
                   </span>
                 ))}
@@ -193,4 +196,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

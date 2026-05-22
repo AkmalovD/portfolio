@@ -1,17 +1,21 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+
+interface Language {
+  code: string;
+  label: string;
+}
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
-  const languages = [
+  const languages: Language[] = [
     { code: 'en', label: 'EN' },
     { code: 'ru', label: 'RU' },
     { code: 'uz', label: 'UZ' },
   ];
 
-  const changeLanguage = (langCode) => {
+  const changeLanguage = (langCode: string): void => {
     i18n.changeLanguage(langCode);
     localStorage.setItem('language', langCode);
   };
@@ -39,4 +43,3 @@ const LanguageSwitcher = () => {
 };
 
 export default LanguageSwitcher;
-

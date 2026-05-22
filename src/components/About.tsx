@@ -1,13 +1,13 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
   const { t } = useTranslation();
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const technologies = [
+  const technologies: string[] = [
     'JavaScript (ES6+)',
     'React',
     'TypeScript',
@@ -79,4 +79,3 @@ const About = () => {
 };
 
 export default About;
-

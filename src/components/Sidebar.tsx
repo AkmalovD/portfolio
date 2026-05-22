@@ -1,17 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-scroll';
-import { FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
-import { label } from 'framer-motion/client';
-import DownloadCv from '../utils/DownloadCv'
+import DownloadCv from '../utils/DownloadCv';
+
+interface NavItem {
+  id: string;
+  label: string;
+}
 
 const Sidebar = () => {
   const { t } = useTranslation();
-  const [activeSection, setActiveSection] = useState('hero');
+  const [activeSection, setActiveSection] = useState<string>('hero');
 
-  const navItems = [
+  const navItems: NavItem[] = [
     { id: 'hero', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
     { id: 'experience', label: t('nav.experience') },
@@ -74,14 +77,13 @@ const Sidebar = () => {
         </nav>
       </div>
 
-      {/* Social Links & Language Switcher */}
+      {/* Language Switcher & Download CV */}
       <div className="space-y-4 flex flex-col justify-center">
         <LanguageSwitcher />
-        <DownloadCv/>
+        <DownloadCv />
       </div>
     </motion.aside>
   );
 };
 
 export default Sidebar;
-

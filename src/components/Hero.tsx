@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 import { FiArrowDown } from 'react-icons/fi';
 import { motion } from 'framer-motion';
@@ -99,4 +98,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

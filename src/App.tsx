@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import MobileNav from './components/MobileNav';
 import Hero from './components/Hero';
@@ -8,12 +8,17 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+interface MousePosition {
+  x: number;
+  y: number;
+}
+
 function App() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+  const [mousePosition, setMousePosition] = useState<MousePosition>({ x: 0, y: 0 });
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
 
@@ -36,11 +41,11 @@ function App() {
 
       {/* Sidebar Navigation - Desktop */}
       <Sidebar />
-      
+
       {/* Mobile Navigation */}
-      <MobileNav 
-        isOpen={isMobileMenuOpen} 
-        setIsOpen={setIsMobileMenuOpen} 
+      <MobileNav
+        isOpen={isMobileMenuOpen}
+        setIsOpen={setIsMobileMenuOpen}
       />
 
       {/* Main Content */}
@@ -59,4 +64,3 @@ function App() {
 }
 
 export default App;
-

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FiHeart } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 
@@ -16,7 +15,15 @@ const Footer = () => {
           © {currentYear} {t('sidebar.name')}. {t('footer.rights')}
         </p>
         <p className="text-dark-600 text-xs">
-          {t('footer.inspired')} <a href="https://brittanychiang.com/" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:text-primary-400 transition-colors">brittanychiang.com</a>
+          {t('footer.inspired')}{' '}
+          <a
+            href="https://brittanychiang.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-500 hover:text-primary-400 transition-colors"
+          >
+            brittanychiang.com
+          </a>
         </p>
       </div>
     </footer>
@@ -24,4 +31,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

@@ -1,17 +1,25 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { FiMail, FiGithub, FiLinkedin, FiDownload  } from 'react-icons/fi';
-import { FaTelegramPlane } from "react-icons/fa";
+import { FiMail, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FaTelegramPlane } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import type { IconType } from 'react-icons';
+
+interface SocialLink {
+  icon: IconType;
+  href: string;
+  label: string;
+  username: string;
+}
 
 const Contact = () => {
   const { t } = useTranslation();
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const socialLinks = [
+  const socialLinks: SocialLink[] = [
     { icon: FiGithub, href: 'https://github.com/AkmalovD', label: 'GitHub', username: '@AkmalovD' },
-    { icon: FiLinkedin, href: 'https://www.linkedin.com/in/dilmurod-akmalov-a0445b302', label: 'LinkedIn', username: 'Dilmurod Akmlaov' },
+    { icon: FiLinkedin, href: 'https://www.linkedin.com/in/dilmurod-akmalov-a0445b302', label: 'LinkedIn', username: 'Dilmurod Akmalov' },
     { icon: FaTelegramPlane, href: 'https://t.me/dilmurodakmalov', label: 'Telegram', username: '@dilmurodakmalov' },
   ];
 
@@ -83,4 +91,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
