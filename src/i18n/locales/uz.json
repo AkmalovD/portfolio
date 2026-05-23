@@ -4,7 +4,8 @@
     "about": "Men haqimda",
     "experience": "Tajriba",
     "projects": "Loyihalar",
-    "contact": "Aloqa"
+    "contact": "Aloqa",
+    "resume": "Rezyume"
   },
   "hero": {
     "greeting": "Salom, mening ismim",
@@ -17,7 +18,7 @@
   },
   "about": {
     "title": "Men haqimda",
-    "paragraph1": "Salom! Men chiroyli, funksional va foydalanishga qulay veb-saytlarni yaratishni yaxshi ko'radigan ishtiyoqli frontend dasturchiman. Veb-dasturlashdagi sayohatim 2018-yilda boshlangan, o'shanda men dizaynni kod yordamida interaktiv tajribaga aylantirishning sehrini kashf etdim.",
+    "paragraph1": "Salom! Men chiroyli, funksional va foydalanishga qulay veb-saytlarni yaratishni yaxshi ko'radigan ishtiyoqli frontend dasturchiman. Veb-dasturlashdagi sayohatim 2023-yilda boshlangan, o'shanda men dizaynni kod yordamida interaktiv tajribaga aylantirishning sehrini kashf etdim.",
     "paragraph2": "Bugungi kunga kelib, men turli xil loyihalar ustida ishlash sharafiga muyassar bo'ldim - kichik biznes veb-saytlaridan tortib murakkab veb-ilovalargacha. Hozirgi paytda mening asosiy e'tiborim odamlarning hayotida farq qiladigan, ochiq va inklyuziv mahsulotlar va raqamli tajribalarni yaratishga qaratilgan.",
     "paragraph3": "Men bu doimo rivojlanayotgan sohada so'nggi yangilanishlardan xabardor bo'lish uchun doimiy ravishda yangi texnologiyalar va eng yaxshi amaliyotlarni o'rganaman. Kod yozmasam, meni yangi dizayn tendentsiyalarini o'rganayotgan, ochiq manbali loyihalarga hissa qo'shayotgan yoki dasturchilar jamiyati bilan bilim almashayotgan holda topishingiz mumkin.",
     "techTitle": "Oxirgi paytlarda ishlagan texnologiyalarimdan ba'zilari:"
@@ -25,38 +26,38 @@
   "experience": {
     "title": "Ish tajribasi",
     "positions": {
-      "senior": "Katta Frontend dasturchi",
+      "senior": "Frontend dasturchi",
       "frontend": "Frontend dasturchi",
-      "junior": "Kichik Frontend dasturchi"
+      "junior": "Amaliyotchi Frontend dasturchi"
     },
     "companies": {
-      "tech": "Texnologiya kompaniyasi",
-      "agency": "Kreativ agentlik",
-      "startup": "Startap"
+      "tech": "AutoGuide",
+      "agency": "AutoCredit",
+      "startup": "Trigger"
     },
     "periods": {
-      "current": "2022 — Hozirgi vaqt",
-      "past1": "2020 — 2022",
-      "past2": "2018 — 2020"
+      "current": "Iyul — Hozirgi vaqt",
+      "past1": "Mart — Hozirgi vaqt",
+      "past2": "May — Iyul (2025)"
     },
     "descriptions": {
       "senior": [
-        "React, TypeScript va Next.js dan foydalangan holda zamonaviy veb-ilovalarni ishlab chiqishga rahbarlik qilish",
-        "Piksel darajasida mukammal interfeyslarni amalga oshirish uchun dizaynerlar va mahsulot menejerlari bilan hamkorlik qilish",
-        "Yuqori kod sifatini saqlash uchun yoshroq dasturchilarga maslahat berish va kod tekshiruvlarini o'tkazish",
-        "Ochiqlik bo'yicha eng yaxshi amaliyotlarni joriy qilish va ilova samaradorligini optimallashtirish"
+        "React, TypeScript, React Query va TailwindCSS yordamida veb-platforma ishlab chiqishda jamoa tarkibida ishladi.",
+        "Loyiha uchun zamonaviy va batafsil analitik panel ishlab chiqdi, backend dasturchilar bilan birgalikda ko'plab CRUD amallarini yaratdi",
+        "Funksiyalar qo'shish jarayonida tezkor ish oqimini ta'minlash uchun Claude Code'dan faol foydalandi",
+        "Git/GitLab orqali hamkorlik qildi va vazifalarni tashkil etish hamda ishlab chiqish jarayonini yaxshilash uchun jamoa muhokamalarida ishtirok etdi."
       ],
       "frontend": [
-        "Turli mijozlar uchun moslashuvchan veb-saytlar va veb-ilovalar yaratish",
-        "Figma dizaynlarini funksional interfeyslarga aylantirish uchun dizayn jamoasi bilan yaqindan ishlash",
-        "RESTful API-larni amalga oshirish va uchinchi tomon xizmatlarini integratsiya qilish",
-        "Mijoz loyihalari uchun veb-sayt samaradorligi va SEO ni yaxshilash"
+        "Avtokreditlash ish oqimi uchun platformani yaratgan ikkita frontend dasturchidan biri bo'ldi",
+        "Kod to'liqligini ta'minlash uchun bank va boshqa fintech kompaniyalardan berilgan hujjatlar bilan ishladi",
+        "Ma'lumotlar bilan ishlash uchun frontend qismlarini ishlab chiqdi va asosiy interaktiv elementlarni joriy etdi.",
+        "Boshqa bo'limlardan hamkasblar bilan korporativ uchrashuvlarda faol ishtirok etdi"
       ],
       "junior": [
-        "Kompaniya veb-sayti va ichki vositalarni ishlab chiqish va saqlash",
-        "Eski kod bazasini zamonaviy React arxitekturasiga ko'chirishda yordam berish",
-        "Agile ishlab chiqish jarayonida va kunlik uchrashuvlarda ishtirok etish",
-        "Komponent kutubxonasi va dizayn tizimiga hissa qo'shish"
+        "Ta'lim markazi uchun moslashuvchan veb-sayt ishlab chiqishga yordam berdi, sahifa tartibi va UI komponentlari ustida ishladi.",
+        "Frontend qismlarini ma'lumotlarga ulash va asosiy interaktiv elementlarni joriy etishda yordam berdi.",
+        "Oddiy versiyalarni boshqarish vazifalari uchun Git'dan foydalandi va ishlab chiqish davomida jamoa bilan hamkorlik qildi.",
+        "Dizayn maketlariga rioya etishni, sahifalarni turli qurilmalar uchun moslashtirish va topshirishdan oldin sahifalarni sinab ko'rishni o'rgandi."
       ]
     }
   },
@@ -69,8 +70,8 @@
         "description": "STAB - bu talabalarga yirik shaharlardagi yashash xarajatlarini solishtirish, xarajatlarni hisoblash va universitetlar hamda stipendiyalarni topish orqali xalqaro ta'limni rejalashtirishga yordam beradigan Next.js ilovasi. TypeScript, React va Tailwind CSS bilan qurilgan, valyuta konvertatsiyasi, Firebase autentifikatsiyasi va talabalar jamiyati platformasini o'z ichiga oladi."
       },
       "taskManager": {
-        "title": "Futbol blogi",
-        "description": "Futbol blogi - bu futbol muxlislariga o'yin tahlillari, o'yinchilar statistikasi, jamoalarni solishtirish va butun dunyo ligalaridan so'nggi yangiliklar bilan ta'minlaydigan Next.js ilovasi. TypeScript, React va Tailwind CSS bilan qurilgan, real vaqtda natijalarni yangilash, Firebase autentifikatsiyasi va muxlislar uchun o'yinlarni muhokama qilish va fikrlarini almashish uchun jamiyat platformasini o'z ichiga oladi."
+        "title": "Tibbiy CRM tizimi",
+        "description": "Klinika ishini soddalashtirish uchun yaratilgan to'liq tibbiy CRM — rol asosidagi kirish nazorati bilan bemorlar, uchrashuvlar, seans yozuvlari va tibbiy xodimlarni boshqarish. Backend NestJS va PostgreSQL asosida, frontend esa Tailwind CSS va shadcn/ui bilan bezatilgan zamonaviy Next.js 16 va React 19 da."
       },
       "weather": {
         "title": "Ob-havo paneli",
@@ -108,4 +109,3 @@
     "tagline": "Men veb uchun ochiq, piksel darajasida mukammal raqamli tajribalarni yarataman."
   }
 }
-

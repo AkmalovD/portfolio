@@ -9,7 +9,7 @@
   },
   "hero": {
     "greeting": "Hi, my name is",
-    "name": "Dilmurod Akmalov.",
+    "name": "Dilmurod Akmalov",
     "tagline": "I build user-focused interfaces with clean, maintainable code.",
     "description": "I'm a frontend developer specializing in building exceptional digital experiences. Currently, I'm focused on creating accessible, human-centered products with modern technologies and best practices.",
     "viewWork": "View My Work",
@@ -26,38 +26,38 @@
   "experience": {
     "title": "Experience",
     "positions": {
-      "senior": "Junior Frontend Developer",
-      "frontend": "Intern Frontend Developer",
+      "senior": "Frontend Developer",
+      "frontend": "Frontend Developer",
       "junior": " Intern Frontend Developer"
     },
     "companies": {
-      "tech": "Tech Company",
-      "agency": "Creative Agency",
-      "startup": "Ministry of Digital Technologies of the Republic of Uzbekistan"
+      "tech": "AutoGuide",
+      "agency": "AutoCredit",
+      "startup": "Trigger"
     },
     "periods": {
-      "current": "August — Present",
-      "past1": "May - August (2025)",
-      "past2": "January - April (2025)"
+      "current": "July — Present",
+      "past1": "March - Present",
+      "past2": "May - July (2025)"
     },
     "descriptions": {
       "senior": [
         "Worked as part of a team developing a web platform using React, TypeScript, React Query, and TailwindCSS.",
-        "Implemented UI components, adapted pages for different devices, and ensured consistent styling across the application.",
-        "Integrated frontend with API endpoints using React Query for data fetching, caching, and state updates.",
+        "Developed modern and detailed analytics dashboard for project, created multiple CRUD operations in pair with backend developers",
+        "Actively used Claude Code to ensure fast workflow through features adding processes",
         "Collaborated through Git/GitLab and participated in team discussions to organize tasks and improve the development process."
       ],
       "frontend": [
+        "Was one of two front-end developers who built the platform for car-credit workflow",
+        "Worked with documentation given from bank and other fin-tech companies to ensure completeness of code",
+        "Developed frontend parts to data and implementing basic interactive elements.",
+        "Actively attended in corporate meetings with colleges from another departments"
+      ],
+      "junior": [
         "Helped develop a responsive website for an education center, working on page layout and UI components.",
         "Assisted with connecting frontend parts to data and implementing basic interactive elements.",
         "Used Git for simple version control tasks and collaborated with the team during development.",
         "Learned to follow design layouts, adapt pages for different devices, and test pages before delivery."
-      ],
-      "junior": [
-        "Helped with basic interface layout tasks and small updates for internal web pages.",
-        "Learned how digital services and government systems are organized.",
-        "Worked with Git for simple version control tasks and improved teamwork skills.",
-        "Assisted in testing small features and preparing simple documentation."
       ]
     }
   },
@@ -70,8 +70,8 @@
         "description": "STAB is a Next.js application that helps students plan international studies by comparing living costs across major cities, calculating expenses, and finding universities and scholarships. Built with TypeScript, React, and Tailwind CSS, it features currency conversion, Firebase authentication, and a student community platform."
       },
       "taskManager": {
-        "title": "Football Blog",
-        "description": "Football Blog is a Next.js application that provides football fans with match analysis, player statistics, team comparisons, and latest news from leagues worldwide. Built with TypeScript, React, and Tailwind CSS, it features real-time score updates, Firebase authentication, and a community platform for fans to discuss matches and share opinions."
+        "title": "Med-service CRM system",
+        "description": "A full-stack medical CRM built to streamline clinic operations — managing patients, appointments, session notes, and  clinical staff with role-based access control. Powered by NestJS and PostgreSQL on the backend, with a modern Next.js  16 and React 19 frontend styled with Tailwind CSS and shadcn/ui."
       },
       "weather": {
         "title": "Weather Dashboard",

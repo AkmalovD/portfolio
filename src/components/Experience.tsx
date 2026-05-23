@@ -24,7 +24,7 @@ const Experience = () => {
       period: t('experience.periods.current'),
       url: 'https://example.com',
       description: t('experience.descriptions.senior', { returnObjects: true }) as string[],
-      tags: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
+      tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
     },
     {
       company: t('experience.companies.agency'),
@@ -32,7 +32,7 @@ const Experience = () => {
       period: t('experience.periods.past1'),
       url: 'https://example.com',
       description: t('experience.descriptions.frontend', { returnObjects: true }) as string[],
-      tags: ['JavaScript', 'Vue.js', 'SCSS'],
+      tags: ['React', 'Typescript', 'Vite', 'Tailwind CSS'],
     },
     {
       company: t('experience.companies.startup'),

@@ -21,17 +21,17 @@ const Projects = () => {
     {
       title: t('projects.items.ecommerce.title'),
       description: t('projects.items.ecommerce.description'),
-      tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase'],
-      github: 'https://github.com',
-      live: 'https://example.com',
+      tags: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+      github: 'https://github.com/AkmalovD/stab-frontend',
+      live: 'https://stab-app.vercel.app/',
       featured: true,
     },
     {
       title: t('projects.items.taskManager.title'),
       description: t('projects.items.taskManager.description'),
-      tags: ['React', 'TypeScript', 'Firebase', 'Framer Motion'],
-      github: 'https://github.com',
-      live: 'https://example.com',
+      tags: ['React', 'TypeScript', 'Nest.js', 'Prisma', 'PostgreSQL'],
+      github: 'https://github.com/AkmalovD/med-crm',
+      live: 'https://med-service-crm.vercel.app',
       featured: true,
     },
     {

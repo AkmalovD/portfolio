@@ -15,7 +15,7 @@ const About = () => {
     'Tailwind CSS',
     'Next.js',
     'Git',
-    'Framer Motion',
+    'Claude Code',
   ];
 
   return (
